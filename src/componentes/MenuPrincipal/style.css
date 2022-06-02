@@ -1,0 +1,21 @@
+.MenuPrincipal{
+    
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+.MenuPrincipal nav{
+    display: flex;
+}
+.MenuPrincipal__li{
+    list-style: none;
+}
+.MenuPrincipal__li-a{
+    color: #202020;
+    text-decoration: none;
+    padding: 0 10px;
+}

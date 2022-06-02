@@ -1,0 +1,58 @@
+.NewsLetter{
+    background-color: #ffe29a;
+    padding: 16px;
+    margin-top: 16px;
+    position: relative;
+}
+
+@media(min-width: 920px){
+    .NewsLetter{
+        background-color: transparent;
+        margin-top: 155px;
+    }
+    .NewsLetter::after{
+        content: "";
+        display: block;
+        width: 890px;
+        height: 975px;
+        background-image: url('../../../public/assets/imagem-hero.svg');
+        position: absolute;
+        --baseDistance:-400px;
+        top: var(--baseDistance);
+        right: 0;
+        z-index: -1;
+        pointer-events: none;
+    }
+}
+.NewsLetter__container{
+    max-width: 585px;
+}
+.NewsLetter__container__text{
+    max-width: 481px;
+    margin-bottom: 32px;
+}
+.NewsLetter h1{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 24px;
+}
+@media(min-width:920px){
+    .NewsLetter h1 strong{
+        font-size: 82px;
+    }
+}
+.NewsLetter p{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 16px;
+}

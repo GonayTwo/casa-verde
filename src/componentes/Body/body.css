@@ -1,0 +1,15 @@
+body{
+    font-family: 'Montserrat';
+}
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+@media (min-width:900px){
+    body{
+        background-image: url('../../../public/assets/body-shape.svg'),
+        url('../../../public/assets/bg.svg');
+        background-repeat: no-repeat,repeat-x;
+        background-position: right top;
+    }
+}
